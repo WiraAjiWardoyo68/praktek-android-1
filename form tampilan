@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_hright="match_parent">
+
+<linearLayout
+        android:layout_marginTop="20dp"
+        andriod:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_widht="match_parent"
+        android:layout_height="match_parent"
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_heigt="wrap_content"
+            android:drawableStart="@drawble/ic_username"
+            android:hint="username">
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:drawbleStart="@drawble/ic_password"
+            android:hint="password"
+            android:layout_widhth="match_parent"
+            android:layout_height="warp_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:drawbleStart="@drawble/ic_namalengkap"
+            android:id="@+id/etnama"
+            android:hint="nama lengkap"
+            android:layout_widhth="match_parent"
+            android:layout_height="warp_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:drawbleStart="@drawble/ic_phone"
+            android:id="@+id/ethp"
+            android:hint="Nomor HP"
+            android:layout_widhth="match_parent"
+            android:layout_height="warp_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:drawbleStart="@drawble/ic_email"
+            android:id="@+id/etemail"
+            android:hint="Email"
+            android:layout_widhth="match_parent"
+            android:layout_height="warp_content" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id"@+id/btnsave"
+            android:text="SAVE"
+            android:layout_widhth="match_parent"
+            android:layout_height="warp_content" />
+
+        <Button
+            android:id"@+id/btnbatal"
+            android:text="BATAL"
+            android:layout_widhth="match_parent"
+            android:layout_height="warp_content" />
+
+
+</LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
